@@ -1,0 +1,32 @@
+.adress {
+    color: #3A4256;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.adress-detail {
+    font-weight: bolder;
+    color: rgb(152, 154, 158);
+    font-size: 20px;
+}
+
+.entertainment-head {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entertainment {
+    border-left: 3px solid black;
+    padding: 5px 22px 5px 5px;
+    margin: 5px 0px;
+    font-weight: bolder;
+}
+
+.entertainment-icon {
+    border: #3A4256 solid 3px;
+    padding: 2px;
+    border-radius: 50%;
+    color: " #3A4256";
+    background-color: "red";
+    margin: 0px 5px;
+}
