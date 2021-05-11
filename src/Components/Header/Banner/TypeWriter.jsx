@@ -7,7 +7,7 @@ const TypeWriter = () => {
         <div className="type" style={{fontSize:"2rem",fontFamily:`Original Surfer ,cursive`,display:"inline-block"}}>
             <Typewriter 
                 options={{
-                    strings: ['I Love To Develop....', 'I Love To Programming....'],
+                    strings: ['I Love To Develop....', 'I Love To Programming....',"I love To Hard Working...."],
                     autoStart: true,
                     loop: true,
                     

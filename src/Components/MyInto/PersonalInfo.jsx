@@ -16,6 +16,7 @@ const PersonalInfo = () => {
             <div>
                 <p><span className="adress">Name: </span><span className="adress-detail">Mosharof Hossen</span></p>
                 <p><span className="adress">Date of birth: </span><span className="adress-detail">January 01,1998</span></p>
+                <p><span className="adress">University: </span><span className="adress-detail">Hajee Mohammad Danesh Science & Technology University</span></p>
                 <p><span className="adress">Adress: </span><span className="adress-detail">Mymensingh,2290,Bangladesh</span></p>
                 <p><span className="adress">Email: </span><span className="adress-detail">mosharofhossen1998@gmail.com</span></p>
                 <p><span className="adress">Phone: </span><span className="adress-detail">+8801757674850</span></p>

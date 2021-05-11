@@ -13,48 +13,56 @@ import Projects from './Components/Project/Project';
 import Blogs from './Components/Blogs/Blogs';
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact/Contact';
+import AllProject from './Components/AllProject/AllProject';
+import DetailsBlogs from './Components/Blogs/DetailsBlogs';
 
 
 
 function App() {
-    return ( <
+    return (
+
+        <
         Router >
 
-        <
+            <
         Switch >
-        <
-        Route exact path = "/" >
-        <
+                <
+        Route exact path="/" >
+                    <
         Home > < /Home> < /
         Route >
 
         <
-        Route path = "/home" >
-        <
+        Route path="/home" >
+                            <
         Home > < /Home> < /
         Route >
 
         <
-        Route path = "/projects" >
-        <
-        Projects > < /Projects> < /
+        Route path="/projects" >
+                                    <
+        AllProject > < /AllProject> < /
         Route >
 
         <
-        Route path = "/blogs" >
-        <
+        Route path="/blogs" >
+                                            <
         Blogs > < /Blogs> < /
         Route >
 
         <
-        Route path = "/resume" >
-        <
+        Route path="/resume" >
+                                                    <
         Resume > < /Resume> < /
         Route >
 
+        <Route path="/allBlogs">
+            <DetailsBlogs></DetailsBlogs>
+        </Route>
+
         <
-        Route path = "/contact" >
-        <
+        Route path="/contact" >
+                                                            <
         Contact > < /Contact> < /
         Route >
 

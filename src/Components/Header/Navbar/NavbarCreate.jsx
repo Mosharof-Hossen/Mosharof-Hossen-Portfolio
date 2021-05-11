@@ -13,9 +13,9 @@ const NavbarCreate = () => {
                 <Navbar.Collapse className="text-white" id="basic-navbar-nav">
                     <Nav className="ml-auto text-white">
 
-                        <Link className = "mx-2" to="/home"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">HOME</Button></Link>
+                        <a className = "mx-2" href="#home"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">HOME</Button></a>
                         <a className = "mx-2" href="#projects"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">PROJECTS</Button></a>
-                        <Link className = "mx-2" to="/blogs"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">BLOG</Button></Link>
+                        <a className = "mx-2" href="#blogs"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">BLOG</Button></a>
                         <Link className = "mx-2" to="/resume"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">RESUME</Button></Link>
                         <a className = "mx-2" href="#contact-details"><Button style={{width:"100%"}} className = "header-btn text-white" variant="outline-primary">CONTACT</Button></a>
                         
