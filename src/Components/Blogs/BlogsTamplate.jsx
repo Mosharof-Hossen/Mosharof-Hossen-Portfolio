@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
+        marginTop:15,
     },
 });
 
@@ -21,7 +22,7 @@ export default function ImgMediaCard(props) {
     const classes = useStyles();
 
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} data-aos="zoom-in" >
             <CardActionArea>
                 <CardMedia
                     component="img"

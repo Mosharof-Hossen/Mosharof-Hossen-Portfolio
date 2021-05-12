@@ -9,15 +9,15 @@ const Blogs = () => {
     const [blogData , SetBlogData] = useState([])
     
     useEffect(() => {
-        SetBlogData(blogsData.slice(0, 2))
+        SetBlogData(blogsData.slice(0, 3))
         
     }, [])
     return (
         <div className="py-5"  style= {{backgroundColor:'#F7F5EF'}} id="blogs">
             <div className="text-center pt-5">
                 <p style={{ color: "#B1B493", fontWeight: "bold" }}>B L O G S</p>
-                <h1 style={{ color: "#3A4256", fontWeight: "bold" }}>My Blogs</h1>
-                <p style={{ color: "#3A4256", fontWeight: "bold" }}>Below are a few of the many BLOGS I have done.</p>
+                <h1 style={{ color: "#3A4256", fontWeight: "bold" }}  data-aos="fade-up">My Blogs</h1>
+                <p style={{ color: "#3A4256", fontWeight: "bold" }}  data-aos="fade-up">Below are a few of the many BLOGS I have done.</p>
 
             </div>
             <div className = "p-5">
@@ -30,7 +30,7 @@ const Blogs = () => {
                 {/* <ImgMediaCard data = {blogData}></ImgMediaCard> */}
 
             </div>
-            <div className="text-center p-2 ">
+            <div className="text-center p-2 " data-aos="fade-up">
 
                 <Link className="mx-2" to="/allBlogs"><Button style={{ backgroundColor: " #3A4256" }}className="header-btn text-white" variant="outline-primary">See All Blogs</Button></Link>
 

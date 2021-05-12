@@ -1,6 +1,7 @@
 import React from 'react';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
+import ContactUs from '../Contact/Contact2';
 import Header from '../Header/Header';
 import MyInto from '../MyInto/MyInto';
 import Projects from '../Project/Project';
@@ -14,7 +15,10 @@ const Home = () => {
             <Skill></Skill>
             <Projects></Projects>
             <Blogs></Blogs>
-            <Contact></Contact>
+
+            {/* <Contact></Contact> */}
+
+            <ContactUs></ContactUs>
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Resume = () => {
                 <h1 style={{ color: "#3A4256", fontWeight: "bold" }}>My Resume</h1>
             </div>
             <div className = "text-center mb-5">             
-                <a className="mx-2 " href="https://drive.google.com/file/d/1vuMlOtb95uGjAmnAMJcL3NJW1n4TcbDS/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
+                <a className="mx-2 " href="https://drive.google.com/file/d/1Fb_WOFrSGtWi0_fIsKTcSAoV9DT2qVMC/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
 
             </div>
             <div className=" row p-3">
@@ -145,7 +145,7 @@ const Resume = () => {
                 </div>
             </div>
             <div className = "text-center mt-5">
-                <a className="mx-2 " href="https://drive.google.com/file/d/1vuMlOtb95uGjAmnAMJcL3NJW1n4TcbDS/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
+                <a className="mx-2 " href="https://drive.google.com/file/d/1Fb_WOFrSGtWi0_fIsKTcSAoV9DT2qVMC/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
 
             </div>
         </div>

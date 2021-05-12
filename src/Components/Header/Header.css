@@ -35,6 +35,9 @@
 .header-style-head {
     overflow: hidden;
     position: relative;
+    margin : 0px 0px;
+    padding : 0px 0px ;
+
 }
 
 .headerbg {
@@ -44,6 +47,8 @@
     top: 0;
     width: 100%;
     height: 700px;
+    margin : 0px 0px;
+    padding : 0px 0px ;
 }
 
 .header-style {

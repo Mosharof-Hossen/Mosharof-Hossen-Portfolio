@@ -16,8 +16,8 @@ const Banner = () => {
                         <h1>A Front-end Developer</h1>
                         <TypeWriter></TypeWriter>
                         <div className=" mt-5 mb-sm-5" >
-                            <Link className="mx-2" to="/home"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faBriefcase} /> Hire me</Button></Link>
-                            <a className="mx-2 " href="https://drive.google.com/file/d/1vuMlOtb95uGjAmnAMJcL3NJW1n4TcbDS/view?usp=sharing" rel="noopener noreferrer"target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
+                            <a className="mx-2" href="#contact-details"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faBriefcase} /> Hire me</Button></a>
+                            <a className="mx-2 " href="https://drive.google.com/file/d/1Fb_WOFrSGtWi0_fIsKTcSAoV9DT2qVMC/view?usp=sharing" rel="noopener noreferrer"target="_blank"><Button className="header-btn text-white" style={{ backgroundColor: " #3A4256" }} variant="outline-primary"><FontAwesomeIcon icon={faFileDownload} /> Download Resume</Button></a>
    
 
                         </div>
