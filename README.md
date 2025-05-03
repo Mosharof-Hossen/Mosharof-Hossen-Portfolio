@@ -8,8 +8,6 @@ Welcome to my **portfolio** repository! I’m a **Full Stack Web Developer** wit
 - 📫 How to reach me: [mosharofhossen1998@gmail.com](mailto:mosharofhossen1998@gmail.com)  
 - 🥰 Portfolio: [Visit My Portfolio](https://portfolio-pro-max.web.app/)
 
----
-
 ## Connect with me 🤝
 <p align="left">
   <a href="https://www.linkedin.com/in/mosharof-hosssen/" target="blank">
@@ -20,4 +18,3 @@ Welcome to my **portfolio** repository! I’m a **Full Stack Web Developer** wit
   </a>
 </p>
 
----
